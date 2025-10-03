@@ -85,10 +85,10 @@ public class Main {
                 writer.write(Double.toString(balance));
             }
             catch(IOException e1){
-                System.out.println("Balance error");
+                System.out.println("Error - contact the developer");
             }
         } catch (IOException e2) {
-            System.out.println("Servers are overloaded. Try again later.");
+            System.out.println("Error - contact the developer");
         }
     }
 
